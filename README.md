@@ -23,9 +23,9 @@ Software   : Visual Studio code version 1.65.2
 ## Summary
 
 ### There were 3 candidates in the election:
-Charles Casper Stockham
-Diana DeGette
-Raymon Anthony Doane
+-Charles Casper Stockham,
+-Diana DeGette,
+-Raymon Anthony Doane,
 
 ### The Results:
 
