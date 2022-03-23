@@ -1,17 +1,17 @@
 # Election_Analysis
 
-##Project Overview
+## Project Overview
 
 We were given the task of auditing a local congressional election. Using Python the objective was to read a csv file with election data, process the data to find specific election details then output these finding to a text file.
 
-##Resources
+## Resources
 
 Data source: election_results.csv
 Software   : Visual Studio code version 1.65.2
              Python 3.10
              
              
-##Objectives to find:
+## Objectives to find:
 1. The total number of votes cast
 2. A complete list of candidates who received votes
 3. The percentage of votes each candidate won plus The total number of votes each candidate won
@@ -20,19 +20,19 @@ Software   : Visual Studio code version 1.65.2
 7. The number of votes and the percentage of total votes from each county 
 8. The county with the largest turnout
              
-##Summary
+## Summary
 
 ###There were 3 candidates in the election:
 Charles Casper Stockham
 Diana DeGette
 Raymon Anthony Doane
 
-###The Results:
+### The Results:
 
 
 ![image](https://user-images.githubusercontent.com/99847046/159738864-da7482f3-0a1e-4f87-9f27-e62ccebb640f.png)
 
-###Audit Summary
+### Audit Summary
 
 The code used to execute this audit is very flexible and can be used (with the right modifications) to assess any election data.
 Modifying the open path and read function to determine the source of the data is the first necessary step.
