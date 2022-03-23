@@ -41,8 +41,8 @@ We would need to adjust the path to retrieve new data.
 ![image](https://user-images.githubusercontent.com/99847046/159739135-c860c006-f025-482f-832d-063b18b2c069.png)
 
 The name of the variables can changed to the user's liking to make it easier to read and understand, that however doesn't influence the functionality of the code.
+It would also be important to assess any new data to know what column the desired variable is found in and change the index to save the variable as the key.  Example, If the candidate name was found in the 4th column instead of the 3rd (row[3]), the row index would have to change accordingly.
 
-It would also be important to assess any new data to know what column the desired variable is found in and change the index to save the variable as the key.  Example, If the candidate name was found in the 4th column instead of the 3rd like the image below, the row index would have to change accordingly.
-Another area the image below shows is if there is the need to track another dimension to election additional to the candidates or the county, like say aligned political party for example.  Another IF statement that has a new dictionary, list to store the new variable and the variable itself would be place in the for loop below to track the votes associated to political parties just as we tracked votes to the candidate names and county names.
+If there is the need to track another variable of the election, additional to the candidates or the county (like aligned political party for example), another if statement would be created.  The if statement that has a new dictionary, a new variable and a list to store that variable, would be place in the for loop below.  There it would track the votes associated with that variable just as we tracked votes tied to the candidate names and county names.
 
 ![image](https://user-images.githubusercontent.com/99847046/159739257-cc262432-f6e2-4474-b246-94ec4c7d1c27.png)
